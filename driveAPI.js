@@ -29,8 +29,8 @@ class DriveAPI {
      * The base API url for this service, used for <img src=""> in cached images
      * Can (and should) be modified by client application for production deployment URL
      */
-    this.restEndpoint = 'https://google-drive-cms.herokuapp.com/api/v1/';
-    // this.restEndpoint = 'http://localhost/api/v1';
+    // this.restEndpoint = 'https://google-drive-cms.herokuapp.com/api/v1/';
+    this.restEndpoint = 'http://localhost/api/v1';
 
     // Load client secrets from environment vars (e.g. Heroku deployment)
     if (process.env.CLIENT_EMAIL && process.env.PRIVATE_KEY) {
